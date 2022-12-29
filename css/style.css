@@ -110,7 +110,7 @@ img {
 .header__menu,
 .features-list,
 .employee-cards,
-.list-services,
+.services__list,
 .gallery,
 .clients__list {
     display: flex;
@@ -337,7 +337,7 @@ img {
     padding-top: 0;
 }
 
-.services-title,
+.services__title,
 .team__title,
 .clients__title {
     margin-bottom: 50px;
@@ -348,11 +348,11 @@ img {
     text-align: center;
 }
 
-.list-services-item {
+.services__item {
     position: relative;
 }
 
-.services-item-title {
+.services__subtitle {
     position: absolute;
     bottom: 0;
     width: 370px;
