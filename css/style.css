@@ -109,7 +109,7 @@ img {
 .header__contacts,
 .header__menu,
 .features-list,
-.employee-cards-items,
+.employee-cards,
 .list-services,
 .gallery,
 .clients__list {
@@ -338,8 +338,7 @@ img {
 }
 
 .services-title,
-.team-title,
-.clients-title {
+.team__title,
 .clients__title {
     margin-bottom: 50px;
     color: var(--title-color);
@@ -374,7 +373,7 @@ img {
     background-color: var(--secondary-background-color);
 }
 
-.team-title {
+.team__title {
     color: var(--title-color);
     font-weight: 700;
     font-size: 36px;
@@ -382,7 +381,7 @@ img {
     text-align: center;
 }
 
-.employee-cards-item {
+.employee-cards__item {
     background-color: var(--main-background-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
