@@ -108,7 +108,7 @@ img {
 
 .header__contacts,
 .header__menu,
-.features-list,
+.features__list,
 .employee-cards,
 .services__list,
 .gallery,
@@ -293,12 +293,12 @@ img {
 
 /* Features styles */
 
-.feauteres-icons {
+.feauteres__icons {
     width: 70px;
     height: 70px;
 }
 
-.icon-background {
+.features__background {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -317,11 +317,11 @@ img {
     text-transform: uppercase;
 }
 
-.features-list {
+.features__list {
     align-items: start;
 }
 
-.features-list-item {
+.features__item {
     width: 270px;
 }
 
