@@ -231,7 +231,7 @@ img {
     text-align: center;
 }
 
-.main-title {
+.main__title {
     max-width: 696px;
     margin: 0 auto 30px;
     color: var(--white-color);
