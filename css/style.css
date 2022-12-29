@@ -145,6 +145,7 @@ img {
 .logo {
     /* margin-right: 93px; */
     /* color: var(--black-color); */
+    display: block;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -242,8 +243,11 @@ img {
     text-transform: uppercase;
 }
 
-.form-btn-submit,
-.order-btn {
+.button
+/* ,
+.order-btn */
+
+{
     display: flex;
     padding: 10px 32px;
     margin-left: auto;
@@ -266,8 +270,8 @@ img {
 
 .order-btn:hover,
 .order-btn:focus,
-.form-btn-submit:hover,
-.form-btn-submit:focus {
+.button:hover,
+.button:focus {
     background-color: var(--order-btn-actice);
 }
 
@@ -779,23 +783,30 @@ img {
     background-color: var(--background-order-service-footer)
 }
 
-.footer .container {
+.footer__container {
     display: flex;
     column-gap: 70px;
     justify-content: space-between;
     align-items: baseline;
 }
 
-.footer-contacts {
-    margin-top: 20px;
+.footer__address {
+    /* display: flex;
+    column-gap: 70px;
+    justify-content: space-between;
+    align-items: baseline; */
 }
 
-.footer__logo {
-    margin: 0;
+.footer__contacts {
+    /* margin-top: 20px; */
+}
+
+.logo__footer {
+    margin: 0 0 20px 0;
     color: var(--white-color);
 }
 
-.postal-address {
+.footer__postal-address {
     color: var(--white-color);
     font-style: normal;
     font-size: 14px;
@@ -803,7 +814,7 @@ img {
     transition: color var(--anime);
 }
 
-.footer-contact {
+.footer__link {
     color: var(--footer-contact-color);
     font-style: normal;
     font-size: 14px;
@@ -811,22 +822,27 @@ img {
     transition: color var(--anime);
 }
 
-.join {
+.footer__join {
     /* margin-right: 93px; */
 }
 
-.contact-item+.contact-item {
+
+/* .footer__item+.footer__item {
     margin-top: 9px;
+} */
+
+.footer__item:not(:last-child) {
+    margin-bottom: 9px;
 }
 
-.postal-address:hover,
-.postal-address:focus,
-.footer-contact:hover,
-.footer-contact:focus {
+.footer__postal-address:hover,
+.footer__postal-address:focus,
+.footer__link:hover,
+.footer__link:focus {
     color: var(--accent-color);
 }
 
-.footer-title {
+.footer__title {
     margin-bottom: 20px;
     font-size: 14px;
     font-weight: 700;
@@ -877,20 +893,20 @@ img {
 
 /* footer subscribe */
 
-.subscribe {
-    display: flex;
+.footer__subscribe {
+    /* display: flex; */
 }
 
 .form-footer-subscribe {
     /* outline: 1px solid red; */
 }
 
-.form-footer-wrop {
+.footer__form-wrop {
     display: flex;
     column-gap: 12px;
 }
 
-.form-footer-input {
+.footer__form-input {
     width: 358px;
     padding: 15px 16px;
     font-size: 16px;
