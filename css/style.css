@@ -112,7 +112,7 @@ img {
 .employee-cards-items,
 .list-services,
 .gallery,
-.clients-list {
+.clients__list {
     display: flex;
     align-items: center;
     column-gap: 30px;
@@ -340,6 +340,7 @@ img {
 .services-title,
 .team-title,
 .clients-title {
+.clients__title {
     margin-bottom: 50px;
     color: var(--title-color);
     font-weight: 700;
@@ -410,29 +411,44 @@ img {
 
 /* Regulary clients */
 
-.client-link {
-    display: block;
-    width: 170px;
-    height: 92px;
-    border: 1px solid var(--social-client-link-color);
-    border-radius: 4px;
-}
-
-.client-link {
+.clients__link {
+    /* display: block; */
     display: flex;
     justify-content: center;
+    width: 170px;
+    height: 92px;
     fill: var(--social-client-link-color);
+    border: 1px solid var(--social-client-link-color);
+    border-radius: 4px;
     transition: color var(--anime), fill var(--anime), border var(--anime);
 }
 
-.client-link:hover,
-.client-link:focus {
+
+/* .client-link { */
+
+
+/* display: flex; */
+
+
+/* justify-content: center; */
+
+
+/* fill: var(--social-client-link-color); */
+
+
+/* transition: color var(--anime), fill var(--anime), border var(--anime); */
+
+
+/* } */
+
+.clients__link:hover,
+.clients__link:focus {
     color: var(--accent-color);
     fill: var(--accent-color);
     border: 1px solid var(--accent-color);
 }
 
-.client-logo {}
+.clients__logo {}
 
 
 /* PORTFOLION STILES */
