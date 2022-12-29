@@ -606,7 +606,7 @@ img {
     overflow-y: auto;
 } */
 
-.modal-container {
+.modal__container {
     /* position: absolute; */
     position: relative;
     top: 50%;
@@ -622,7 +622,7 @@ img {
     padding: 40px;
 }
 
-.close-btn {
+.modal__button-close {
     position: absolute;
     display: flex;
     width: 30px;
@@ -638,13 +638,13 @@ img {
     border: 1px solid var(--close-button-border);
 }
 
-.close-modal-icon {
+.modal__icon-close {
     width: 18px;
     height: 18px;
     transition: fill var(--anime);
 }
 
-.modal-title {
+.modal__title {
     margin-bottom: 12px;
     font-size: 20px;
     line-height: 1.15;
@@ -656,14 +656,14 @@ img {
 
 /* Form styles */
 
-.form-field {
+.modal__form-field {
     display: flex;
     flex-direction: column;
     height: 58px;
     margin-bottom: 10px;
 }
 
-.form-field-label {
+.modal__form-label {
     margin-bottom: 4px;
     font-size: 12px;
     line-height: 0.86;
@@ -671,17 +671,17 @@ img {
     color: var(--text-color);
 }
 
-.input-icon-wrop {
+.modal__wrop {
     position: relative;
 }
 
-.form-field-input {
+.modal__form-input {
     width: 100%;
     height: 40px;
     padding-left: 42px;
 }
 
-.form-field-icon {
+.modal__form-icon {
     position: absolute;
     width: 18px;
     height: 18px;
@@ -691,26 +691,26 @@ img {
     transition: color var(--anime), fill var(--anime), border var(--anime);
 }
 
-.form-field-input,
-.form-field-textarea {
+.modal__form-input,
+.modal__form-textarea {
     border: 1px solid var(--form-border-color);
     border-radius: 4px;
     transition: border var(--anime);
 }
 
-.form-field-comment {
+.modal__form-comment {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
 }
 
-.form-field-textarea {
+.modal__form-textarea {
     height: 120px;
     padding: 12px 16px;
     resize: none;
 }
 
-.form-field-textarea::placeholder {
+.modal__form-textarea::placeholder {
     font-family: inherit;
     font-size: 12px;
     line-height: 1.17;
@@ -725,29 +725,29 @@ img {
     outline-offset: 0;
 }
 
-.close-modal-icon:hover,
-.close-btn:focus,
-.form-field-input:hover,
-.form-field-input:hover+.form-field-icon,
-.form-field-input:focus,
-.form-field-input:focus+.form-field-icon,
-.form-field-textarea:hover,
-.form-field-textarea:focus {
+.modal__icon-close:hover,
+.modal__button-close:focus,
+.modal__form-input:hover,
+.modal__form-input:hover+.modal__form-icon,
+.modal__form-input:focus,
+.modal__form-input:focus+.modal__form-icon,
+.modal__form-textarea:hover,
+.modal__form-textarea:focus {
     cursor: pointer;
     border-color: var(--accent-color);
     fill: var(--accent-color);
 }
 
-.form-field-check {
+.modal__form-check {
     margin-bottom: 30px;
     text-align: center;
 }
 
-.check {
+.modal__check {
     appearance: none;
 }
 
-.icon-check {
+.modal__icon-check {
     margin-right: 8px;
     vertical-align: middle;
     border: 2px solid var(--title-color);
@@ -756,13 +756,13 @@ img {
     transition: color var(--anime), fill var(--anime), border var(--anime);
 }
 
-.check:checked+.icon-check {
+.modal__check:checked+.modal__icon-check {
     fill: var(--white-color);
     background-color: var(--accent-color);
     border-color: var(--accent-color);
 }
 
-.form-field-agreement {
+.modal__form-agreement {
     display: inline-block;
     font-size: 14px;
     line-height: 1.71;
