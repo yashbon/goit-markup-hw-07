@@ -1,0 +1,8 @@
+@import 'utils/_vars.scss';
+@import 'base/modern-normalize';
+body {
+    background-color: $mainBackgroundColor;
+    color: $titleColor;
+    font-family: roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
