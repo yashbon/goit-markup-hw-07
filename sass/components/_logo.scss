@@ -1,0 +1,23 @@
+.logo {
+    /* margin-right: 93px; */
+    /* color: $blackColor; */
+    display: block;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.logo__header {
+    margin-right: 93px;
+    color: $blackColor;
+}
+
+.logo-first {
+    color: $accentColor;
+}
+
+.logo__footer {
+    margin: 0 0 20px 0;
+    color: $whiteColor;
+}
