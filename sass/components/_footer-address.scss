@@ -4,6 +4,10 @@
     font-size: 14px;
     line-height: 1.71;
     transition: color $anime;
+    &:hover,
+    &:focus {
+        color: $accentColor;
+    }
 }
 
 .footer__link {
@@ -12,17 +16,14 @@
     font-size: 14px;
     line-height: 1.71;
     transition: color $anime;
+    &:hover,
+    &:focus {
+        color: $accentColor;
+    }
 }
 
 .footer__item:not(:last-child) {
     margin-bottom: 9px;
-}
-
-.footer__postal-address:hover,
-.footer__postal-address:focus,
-.footer__link:hover,
-.footer__link:focus {
-    color: $accentColor;
 }
 
 .footer__title {

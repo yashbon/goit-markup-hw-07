@@ -2,15 +2,13 @@
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: $footerBackgroundOrderService;
-}
-
-.footer__container {
-    display: flex;
-    column-gap: 70px;
-    justify-content: space-between;
-    align-items: baseline;
-}
-
-.footer .social-list__link {
-    fill: $whiteColor;
+    &__container {
+        display: flex;
+        column-gap: 70px;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    .social-list__link {
+        fill: $whiteColor;
+    }
 }

@@ -13,11 +13,10 @@
     border: 1px solid $socialClientLinkColor;
     border-radius: 4px;
     transition: color $anime, fill $anime, border $anime;
-}
-
-.clients__link:hover,
-.clients__link:focus {
-    color: $accentColor;
-    fill: $accentColor;
-    border: 1px solid $accentColor;
+    &:hover,
+    &:focus {
+        color: $accentColor;
+        fill: $accentColor;
+        border: 1px solid $accentColor;
+    }
 }
