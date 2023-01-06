@@ -35,7 +35,29 @@
     margin-right: auto;
 }
 
-.filter-button {
+.modal__button-close {
+    position: absolute;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    top: 8px;
+    right: 8px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: $whiteColor;
+    border: 1px solid $closeButtonBorder;
+}
+
+.modal__icon-close {
+    width: 18px;
+    height: 18px;
+    transition: fill $anime;
+}
+
+.filter__button {
     padding: 6px 22px;
     color: $titleColor;
     background-color: $secondaryBackgroundColor;
